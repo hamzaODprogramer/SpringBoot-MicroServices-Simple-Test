@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: false
 
 spring:
-  applocation:
+  application:
     name: gateway
   cloud:
     gateway:
