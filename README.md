@@ -16,6 +16,16 @@ Le projet comprend les microservices suivants :
 
 ## Technologies
 
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2025.1.1-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Eureka](https://img.shields.io/badge/Netflix%20Eureka-4B9CD3?style=for-the-badge&logo=netflix&logoColor=white)
+![Spring Cloud Gateway](https://img.shields.io/badge/Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Zipkin](https://img.shields.io/badge/Zipkin-6DB33F?style=for-the-badge&logo=zipkin&logoColor=white)
+![Lombok](https://img.shields.io/badge/Lombok-BA4A00?style=for-the-badge&logo=lombok&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 - **Java** 21
 - **Spring Boot** 3.4.0 / 4.0.5
 - **Spring Cloud** 2024.0.2 / 2025.1.1
