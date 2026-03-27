@@ -1,6 +1,8 @@
 eureka:
   client:
     register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 
 spring:
   application:
@@ -10,18 +12,17 @@ spring:
       discovery:
         locator:
           enabled: true
+          lower-case-service-id: true
       routes:
         - id: students
-          uri : http://localhost:8090
+          uri: lb://students
           predicates:
             - Path=/api/students/**
         - id: schools
-          uri : http://localhost:8070
+          uri: lb://school
           predicates:
             - Path=/api/schools/**
 
-
-
 server:
-  port:  8222
+  port: 8222
 
